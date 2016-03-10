@@ -32,7 +32,7 @@ public class Test {
 		//admin.setFirstName("ilyes");
 			//	admin.setLogin("ilyes");
 			//	admin.setPassword("ilyes");
-		UserDelagate.create(admin);
+		//UserDelagate.create(admin);
 		//UserDelagate.delete(2);
 		List<User> user;
 		user=UserDelagate.findAll();
@@ -42,12 +42,12 @@ public class Test {
 		//admin=(Administrator) UserDelagate.authentificate("soufiene", "soufiene");
 		//System.out.println(admin.getLogin());
 		Shopowner salah =new Shopowner();
-		salah.setFirstName("salah");
-		salah.setLastName("ghabri");
+		salah.setFirstName("Salah");
+		salah.setLastName("Ghabri");
 		ShopeOwnerDelegate.create(salah);
 		Customer sel3a=new Customer();
-		sel3a.setFirstName("5arya");
-		sel3a.setLastName("ka3loussa");
+		sel3a.setFirstName("Kamel");
+		sel3a.setLastName("Ayari");
 		List<Customer> cust;
 		CustomerDelegate.create(sel3a);
 		cust=CustomerDelegate.findAllCos();
